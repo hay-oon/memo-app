@@ -3,7 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>memo</title>
+    <title>INNIT. simple memo-app</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>INNIT. <span class="subtitle">simple memo-app</span></h1>
+      <input type="text" id="search" placeholder="search...👀" />
+    </header>
+    <main>
+      <aside>
+        <ul id="note-list"></ul>
+        <button id="add-note">Add notes</button>
+      </aside>
+      <section id="note-detail">
+        <div id="note-content"></div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
