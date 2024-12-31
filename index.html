@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,10 +14,29 @@
     <main>
       <aside>
         <ul id="note-list"></ul>
-        <button id="add-note">Add notes</button>
       </aside>
       <section id="note-detail">
-        <div id="note-content"></div>
+        <div
+          id="note-title"
+          contenteditable="true"
+          style="
+            border: 1px solid #ccc;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+          "
+        >
+          제목을 입력하세요...
+        </div>
+        <div
+          id="note-content"
+          contenteditable="true"
+          style="border: 1px solid #ccc; padding: 10px; min-height: 200px"
+        >
+          내용을 입력하세요...
+        </div>
+        <button id="save-note">저장</button>
       </section>
     </main>
     <script src="script.js"></script>

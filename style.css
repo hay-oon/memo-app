@@ -21,6 +21,7 @@ header {
 #search {
   background-color: #fffae8;
   color: #ce2525;
+  border-radius: 5px;
   margin-top: 10px;
   width: 80%;
   padding: 5px;
@@ -59,5 +60,38 @@ section#note-detail {
   padding: 20px;
 }
 
-/* button#add-note {
-} */
+#note-title {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  min-height: 40px;
+  background-color: #f9f8f7;
+}
+
+#note-content {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  min-height: 150px;
+  margin-top: 10px;
+  background-color: #f9f8f7;
+}
+
+#save-note {
+  width: 100%;
+  margin-top: 10px;
+  padding: 7px 20px;
+  font-size: 16px;
+  background-color: #ce2525;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#save-note:hover {
+  background-color: #b81414;
+}
